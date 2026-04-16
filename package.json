@@ -1,0 +1,23 @@
+{
+  "name": "@hexlet/code",
+  "version": "1.0.0",
+  "description": "[![Actions Status](https://github.com/10CABA/frontend-project-44/actions/workflows/hexlet-check.yml/badge.svg)](https://github.com/10CABA/frontend-project-44/actions)",
+  "homepage": "https://github.com/10CABA/frontend-project-44#readme",
+  "bugs": {
+    "url": "https://github.com/10CABA/frontend-project-44/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/10CABA/frontend-project-44.git"
+  },
+  "license": "ISC",
+  "author": "10CABA",
+  "type": "module",
+  "main": "bin/brain-games.js",
+  "bin": {
+    "brain-games": "bin/brain-games.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
