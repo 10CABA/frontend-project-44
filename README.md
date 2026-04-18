@@ -14,4 +14,4 @@
 [![asciicast](https://asciinema.org/a/rG7PbSKXZ0addEb0)](https://asciinema.org/a/rG7PbSKXZ0addEb0)
 
 ## Простое ли число?
-[![asciicast]()]()
+[![asciicast](https://asciinema.org/a/qWkJx8XlqUbktRkd)](https://asciinema.org/a/qWkJx8XlqUbktRkd)

@@ -5,7 +5,7 @@ function isPrime(num) {
   
   for (let i = 2; i <= Math.sqrt(num); i++) {
     if (num % i === 0) {
-      return false
+      return false;
     }
   }
   
@@ -13,13 +13,13 @@ function isPrime(num) {
 }
 
 function generateRound() {
-  const rngNum = getRandomNumber(1, 100);
-  const correctAnswer = isPrime(rngNum) ? 'yes' : 'no'
+  const number = getRandomNumber(1, 100)
+  const correctAnswer = isPrime(number) ? 'yes' : 'no';
   
   return {
-    question: String(randomNumber),
+    question: String(number),
     correctAnswer: correctAnswer,
-  };
+  }
 }
 
 export default {
