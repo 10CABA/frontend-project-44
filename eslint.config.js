@@ -28,4 +28,4 @@ export default [
       'n/no-missing-import': 'off',
     },
   },
-];
+]
