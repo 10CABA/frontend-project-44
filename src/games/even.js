@@ -1,18 +1,10 @@
 import getRandomNumber from '../utils.js';
 
-function isEven(num) {
-  return num % 2 === 0;
-}
+function isEven(num) {return num % 2 === 0}
 
 function generateRound() {
-  const randomNumber = getRandomNumber(1, 100);
-  let correctAnswer;
-  
-  if (isEven(randomNumber)) {
-    correctAnswer = 'yes';
-  } else {
-    correctAnswer = 'no';
-  }
+  const randomNumber = getRandomNumber(1, 100)
+  let correctAnswer = isEven(randomNumber) ? yes : no
   
   return {
     question: String(randomNumber),
