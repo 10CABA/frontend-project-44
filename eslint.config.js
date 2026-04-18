@@ -26,6 +26,12 @@ export default [
       'n/no-process-exit': 'off',
       'n/no-unpublished-import': 'off',
       'n/no-missing-import': 'off',
+      'semi': 'off',
+      '@stylistic/semi': 'off',
+      '@stylistic/eol-last': 'off',
+      '@stylistic/brace-style': 'off',
+      '@stylistic/arrow-parens': 'off',
+      '@stylistic/no-multiple-empty-lines': 'off',
     },
   },
-]
+];
