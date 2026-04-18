@@ -1,18 +1,18 @@
 import getRandomNumber from '../utils.js';
 
-function isEven(num) {return num % 2 === 0}
+const isEven = (num) => num % 2 === 0;
 
 function generateRound() {
-  const randomNumber = getRandomNumber(1, 100)
-  let correctAnswer = isEven(randomNumber) ? 'yes' : 'no'
-  
+  const randomNumber = getRandomNumber(1, 100);
+  const correctAnswer = isEven(randomNumber) ? 'yes' : 'no';
+
   return {
     question: String(randomNumber),
-    correctAnswer: correctAnswer,
+    correctAnswer,
   };
 }
 
 export default {
   rules: 'Answer "yes" if the number is even, otherwise answer "no".',
-  generateRound: generateRound,
-};
+  generateRound,
+}
